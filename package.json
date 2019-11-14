@@ -1,0 +1,18 @@
+{
+  "name": "line_bot",
+  "version": "1.0.0",
+  "description": "line bot",
+  "main": "index.js",
+  "author": "sumi",
+  "license": "MIT",
+  "scripts": {
+    "build": "node server.js",
+    "dev": "now dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.3",
+    "express": "^4.17.1",
+    "now": "^2.0"
+  }
+}
